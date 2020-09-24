@@ -12,10 +12,10 @@ export default class Project extends Component {
 
     
     render() {
-        if (this.state.clicked === 'false') {
+        if (this.state.clicked === false) {
             return (
                 <div className="project-unclicked" >
-                    <img onClick={this.handleOnClick} className="project-img" src={this.props.gif} alt="project-img"></img>
+                    <img onClick={this.handleOnClick} className="project-img" src={this.props.gif} alt="project-img" height="250" width="500"></img>
                 </div>
             )
         } else {

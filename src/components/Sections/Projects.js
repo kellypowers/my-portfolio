@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
+import {zodiacgif} from './zodiacgif.mp4';
 
 export default class Projects extends Component {
 
@@ -11,7 +12,7 @@ export default class Projects extends Component {
                     <div className="project">
                         <Project 
                         title="Zodiac CLI Application"
-                        // gif={}
+                        gif="https://media.giphy.com/media/22m7eNTCRDsKhXIUzs/giphy.gif"
                         // screenshot={}
                         projectDescription="Object Oriented Ruby to make classes and CLI interface. Scraped zodiac API webpage for zodiac details and wrote functions for determining zodiac sign based on user input."
                         githubCode="https://github.com/kellypowers/zodiac"
@@ -21,7 +22,7 @@ export default class Projects extends Component {
                     <div className="project">
                         <Project 
                         title="Flatiron Fitness"
-                        // gif={}
+                        gif="https://media.giphy.com/media/4YoQxrrWjVR5DSuiGS/giphy.gif"
                         // screenshot={}
                         projectDescription="A fitness logging app to create and reach workout goals. MVC application structure in Sinatra. CRUD functionality. Uses bcrypt for login and sign-up. Backend database includes has_many and belongs_to and join table relationships."
                         githubCode="https://github.com/kellypowers/flatironfitness"
