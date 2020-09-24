@@ -108,16 +108,30 @@
  height: 100vh;
  padding-top: 20px;
  background-color: #333;
+ color: white;
 }
 
 .projects-section {
   height: 100vh;
   padding-top: 20px;
   background-color: #fafafa;
+}
+.projects-container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .project-unclicked{
+  border: 1px solid black;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr */
  }
 
  .contact-section {
   height: 100vh;
   padding-top: 20px;
   background-color: #333;
+  color: white;
  }

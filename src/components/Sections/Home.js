@@ -4,8 +4,10 @@ export default class Home extends Component {
     render() {
         return (
             <div className="home-section" id="home">
-                <p>Home</p>
+                <h1>Home</h1>
             </div>
         )
     }
 }
+
+// this will have About me section

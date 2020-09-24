@@ -22,7 +22,7 @@ export default class Project extends Component {
             return (
                 <div className="project-clicked" >
                     <img src={this.props.screenshot} onClick={this.handleOnClick} alt="project" />
-                    <h3 className="project-name">{this.props.projectName}</h3>
+                    <h3 className="project-name">{this.props.title}</h3>
                     <p className="project-description">{this.props.projectDescription}</p>
                     <a href={this.props.githubCode} >Code</a>
                     {/* <a href={this.props.demoVideo} >Demo Video</a> */ }
