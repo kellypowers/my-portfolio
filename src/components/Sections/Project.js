@@ -25,7 +25,8 @@ export default class Project extends Component {
                     <h3 className="project-name">{this.props.title}</h3>
                     <p className="project-description">{this.props.projectDescription}</p>
                     <a href={this.props.githubCode} >Code</a>
-                    {/* <a href={this.props.demoVideo} >Demo Video</a> */ }
+                    <a href={this.props.demoVideo} >Demo Video {this.props.demoInstructions}</a> 
+                    
                     {/* demo video should be a link to demo on heroku or aws or something */}
                 </div>
             )

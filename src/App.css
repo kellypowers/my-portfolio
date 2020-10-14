@@ -112,7 +112,7 @@
 }
 
 .projects-section {
-  height: 100vh;
+  height: 150vh;
   padding-top: 20px;
   background-color: #fafafa;
 }
@@ -124,6 +124,7 @@
 
  .project-unclicked{
   /* border: 1px solid black; */
+  padding: 10px 10px 10px 10px;
   height: 50%;
   /* display: grid;
   grid-template-rows: 1fr 1fr 1fr ;
