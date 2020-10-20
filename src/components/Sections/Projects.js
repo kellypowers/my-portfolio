@@ -27,7 +27,7 @@ export default class Projects extends Component {
                         // screenshot={}
                         projectDescription="A fitness logging app to create and reach workout goals. MVC application structure in Sinatra. CRUD functionality. Uses bcrypt for login and sign-up. Backend database includes has_many and belongs_to and join table relationships."
                         githubCode="https://github.com/kellypowers/flatironfitness"
-                        // demoVideo="https://drive.google.com/file/d/1aPZWYoZmPauIj5fVqMmOlf6lRh1S2Y5e/view?usp=sharing"
+                        demoVideo="https://flatiron-fitness.herokuapp.com/"
                         />
                     </div>
                     <div className="project">
